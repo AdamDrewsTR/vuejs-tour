@@ -1,5 +1,106 @@
 # Changelog
 
+## [2.3.8](https://github.com/AdamDrewsTR/vuejs-tour/compare/v2.3.8...v2.3.8) (2025-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* Push to 2.0.1
+
+### Features
+
+* Added Clip-Path Highlight ([66a0bae](https://github.com/AdamDrewsTR/vuejs-tour/commit/66a0bae3408926a8ccab514ce73c21f37ca4bce1))
+* **callbacks:** Added onTourStart and onTourEnd callback ([008f798](https://github.com/AdamDrewsTR/vuejs-tour/commit/008f7985608ba1d9aaa8853b8b7d147011a02902))
+* **component:** Added onNext and onPrev functions ([7d68a64](https://github.com/AdamDrewsTR/vuejs-tour/commit/7d68a645e95f41f40d716f502aff6a1ea7ceeca2))
+* **component:** Added tour finished to localstorage ([466659f](https://github.com/AdamDrewsTR/vuejs-tour/commit/466659fcbbbdd8d06e9cd80bf0c4f01a7ea0a2ef))
+* **component:** Added tour finished to localstorage ([7e340a7](https://github.com/AdamDrewsTR/vuejs-tour/commit/7e340a7c7bed3d77214050365e03dc12f8d7477f))
+* **docs:** Added documentation ([1ba9859](https://github.com/AdamDrewsTR/vuejs-tour/commit/1ba985944c43a418f44e4680c3e04f17fe1d26f5))
+* **Docs:** Adding docs using vitepress ([633b017](https://github.com/AdamDrewsTR/vuejs-tour/commit/633b0173b2c0a8bb4a7f03f122c2b1f69f37ffad))
+* **docs:** Included tour example ([7796e69](https://github.com/AdamDrewsTR/vuejs-tour/commit/7796e6968aa19bb02b07fd50741d5f34a4f23ebd))
+* **jumpjs:** Added jump.js for smooth scrolling ([8001f5c](https://github.com/AdamDrewsTR/vuejs-tour/commit/8001f5c59fd0d4969fa41808007bf9467cd6e986))
+* **options:** Added onShow() option - resolves [#10](https://github.com/AdamDrewsTR/vuejs-tour/issues/10) ([b2d88e8](https://github.com/AdamDrewsTR/vuejs-tour/commit/b2d88e8ebe0dfad1fb7ec208b64dc6f107af1e61))
+* **package:** Added npm definitions ([9a1d371](https://github.com/AdamDrewsTR/vuejs-tour/commit/9a1d3712dc1f6860b5c7f2ee30cdfccb61f7569b))
+* **Project:** Added Typescript ([2d80e28](https://github.com/AdamDrewsTR/vuejs-tour/commit/2d80e28315bb708fb539dd13ca631b043de33427))
+* **Step:** Added backdrop option to step ([8b2824e](https://github.com/AdamDrewsTR/vuejs-tour/commit/8b2824e8a05a7d113d2a46a2137960adf9e0b693))
+* **Step:** Added backdrop option to step ([d4e7102](https://github.com/AdamDrewsTR/vuejs-tour/commit/d4e7102f9bc0cccdfb4e9a09845aca93d32218af))
+* **Step:** Added highlight option to steps ([95ea9f9](https://github.com/AdamDrewsTR/vuejs-tour/commit/95ea9f938313b278f81fae773eb6624d208092fb))
+* **Step:** Added highlight option to steps ([18b3a90](https://github.com/AdamDrewsTR/vuejs-tour/commit/18b3a908c8cd8710b156664cd26c0cf3ef075851))
+* **Step:** Added noScroll option to step ([6f60ba6](https://github.com/AdamDrewsTR/vuejs-tour/commit/6f60ba601a28671ae98911a827cfa5eb5c552b5a))
+* **Step:** Added noScroll option to step ([ef33248](https://github.com/AdamDrewsTR/vuejs-tour/commit/ef332482fa5440af451b527a4027237de5394098))
+* **Step:** Added onAfter callback ([09f3fea](https://github.com/AdamDrewsTR/vuejs-tour/commit/09f3fead9b28c9ff0bc6e592d80da96c7380bb35))
+* **Step:** Added onAfter callback ([fdf16f7](https://github.com/AdamDrewsTR/vuejs-tour/commit/fdf16f75eca9a90a1e7a67380d80f30c52ec9246))
+* **Step:** Added onBefore callback to step ([15f0c7a](https://github.com/AdamDrewsTR/vuejs-tour/commit/15f0c7a0b240d61c339cbd560b3e4f3cb004f79d))
+* **Step:** Added onBefore callback to step ([2676095](https://github.com/AdamDrewsTR/vuejs-tour/commit/26760952f29e4832b24a16bf3cf8573534ad0d75))
+* **VTour:** Added goToStep function ([2f4e8b2](https://github.com/AdamDrewsTR/vuejs-tour/commit/2f4e8b22292bf9baa1b95f7df55e19379d17ab33))
+* **VTour:** Added noScroll prop ([7ad9141](https://github.com/AdamDrewsTR/vuejs-tour/commit/7ad91418ea21041935b2a64e9ab43c0f836fd1cf))
+* **VTour:** Added OnTourStep emit ([ce0687c](https://github.com/AdamDrewsTR/vuejs-tour/commit/ce0687cda7739ec7905597a54e9ddf6fc9d06c19))
+* **VTour:** Added OnTourStep emit ([4e12b9b](https://github.com/AdamDrewsTR/vuejs-tour/commit/4e12b9b95786e23631f02a6976cd2992a657af17))
+* **VTour:** Added prop 'backdrop' to enable a backdrop / disabling controls [#45](https://github.com/AdamDrewsTR/vuejs-tour/issues/45) ([a5e21f9](https://github.com/AdamDrewsTR/vuejs-tour/commit/a5e21f91a75f2c311919473ec6cb6a4422a8d531))
+* **VTour:** Added saveToLocalStorage prop ([885bc8b](https://github.com/AdamDrewsTR/vuejs-tour/commit/885bc8bf77489de4a139db9cb5a7bc5a5aca7092))
+* **vuejs-tour:** created component ([99a3088](https://github.com/AdamDrewsTR/vuejs-tour/commit/99a30883624d5bb035303824f6223ad55ca2a798))
+
+
+### Bug Fixes
+
+* [#86](https://github.com/AdamDrewsTR/vuejs-tour/issues/86) lastStep is 0 after refresh ([8e504dc](https://github.com/AdamDrewsTR/vuejs-tour/commit/8e504dc283b8bbd40edc02c2cffb5055eb1690b3))
+* [#89](https://github.com/AdamDrewsTR/vuejs-tour/issues/89) updatePosition in window resize and resizeEnd ([2c5c366](https://github.com/AdamDrewsTR/vuejs-tour/commit/2c5c366cbbab0836dd1e05d39d2c930f525f8616))
+* **actions:** Fixed docs action ([959394c](https://github.com/AdamDrewsTR/vuejs-tour/commit/959394cc422fe6343c9e4776375d8e1e72d82b7a))
+* **actions:** Fixed npm action ([ada714f](https://github.com/AdamDrewsTR/vuejs-tour/commit/ada714fab6bac6396c7c8da041ab4963950339e8))
+* **actions:** Fixed release action ([3ca0fbb](https://github.com/AdamDrewsTR/vuejs-tour/commit/3ca0fbba1160dbcaa719cff74d82bb4c521363ba))
+* **actions:** Fixed workflow automation ([28d458b](https://github.com/AdamDrewsTR/vuejs-tour/commit/28d458b354d6ba32e93e5488266ee034131a6c18))
+* **build:** style.css not included by vite ([6bf83bb](https://github.com/AdamDrewsTR/vuejs-tour/commit/6bf83bbd790c800117fada2ea20f45ec6345524a))
+* **component:** Button cursor not pointer ([3aea1f3](https://github.com/AdamDrewsTR/vuejs-tour/commit/3aea1f3e5eada4ec07cfe56ed19d45e583d90aa0))
+* **component:** Fixed error on first step / no highlight [#20](https://github.com/AdamDrewsTR/vuejs-tour/issues/20) ([968e37a](https://github.com/AdamDrewsTR/vuejs-tour/commit/968e37a75f01629aac71c44f510cd9bdb33d4080))
+* **component:** Fixed exception when tour finishes [#18](https://github.com/AdamDrewsTR/vuejs-tour/issues/18) ([9d745cf](https://github.com/AdamDrewsTR/vuejs-tour/commit/9d745cfdfd3b545045954a0beac7c124aa72478c))
+* **component:** Hide Previous button on #actions overwrite [#25](https://github.com/AdamDrewsTR/vuejs-tour/issues/25) ([dec6fae](https://github.com/AdamDrewsTR/vuejs-tour/commit/dec6fae969dadc8b617378ff7ce2a4e26cdc6d87))
+* **component:** Page not scrolling to top after tour ([f47ad5b](https://github.com/AdamDrewsTR/vuejs-tour/commit/f47ad5b84265c9cfa9ee81af3a2d8a6d958779fd))
+* **component:** Removing highlight ([d35877b](https://github.com/AdamDrewsTR/vuejs-tour/commit/d35877bb00703c45566ad85113791643086a1883))
+* **component:** Skip text is hardcoded, should be read from component's props ([c7152a5](https://github.com/AdamDrewsTR/vuejs-tour/commit/c7152a5beb8c03df16cd932def561ade4446ade9))
+* **component:** Target highlighted even without highlight prop ([bcfd70a](https://github.com/AdamDrewsTR/vuejs-tour/commit/bcfd70a46d9e9a10f43ce7be279b81cd88d686aa))
+* **docs:** Document incorrect about buttonLabel property which should be buttonLabels instead [#27](https://github.com/AdamDrewsTR/vuejs-tour/issues/27) ([a30f9dc](https://github.com/AdamDrewsTR/vuejs-tour/commit/a30f9dc0d1e9330c97038c7a1c3a4baa02378d80))
+* **docs:** Fixed create a tour link ([cc1cbf1](https://github.com/AdamDrewsTR/vuejs-tour/commit/cc1cbf1286617a972d3bd7536f6d19393cca9090))
+* **docs:** Fixed missing package error ([5994f85](https://github.com/AdamDrewsTR/vuejs-tour/commit/5994f8528a5d95f318d29a99d76d0c4936a5c5dd))
+* **docs:** Fixed wrong css import ([fa5d356](https://github.com/AdamDrewsTR/vuejs-tour/commit/fa5d356115f5adf8781f25be396c6b7b96db9a60))
+* fixed build action ([82c5f1f](https://github.com/AdamDrewsTR/vuejs-tour/commit/82c5f1f5206fbcaca7642d844ed965accf59f8ef))
+* Fixed tsconfig noEmit ([c06ec9f](https://github.com/AdamDrewsTR/vuejs-tour/commit/c06ec9f28862cef7b806f2666378cf71741c7a74))
+* **highlight:** Changed highlight border to outline to not take more space ([87b1cdf](https://github.com/AdamDrewsTR/vuejs-tour/commit/87b1cdf07d9dad9d3a30fbb4cfd1ee3685f35648))
+* **npm:** Updated packages ([081b0b7](https://github.com/AdamDrewsTR/vuejs-tour/commit/081b0b7c269a2155a9073da8f6ac4c8acfada8a3))
+* **package:** fixed formatting ([50eba1c](https://github.com/AdamDrewsTR/vuejs-tour/commit/50eba1c5ed4c55d1a9bfd470071299bc6e8c6328))
+* **Package:** Fixed not using npm ([c9c046b](https://github.com/AdamDrewsTR/vuejs-tour/commit/c9c046be28fad2e1f4ee85a50ee635cbed53c194))
+* **package:** Fixed pop up showing before start ([6d1feaa](https://github.com/AdamDrewsTR/vuejs-tour/commit/6d1feaab5e0ae90bb1b9863cf8c307501387e1fc))
+* **package:** Fixed wrong scripts ([4438349](https://github.com/AdamDrewsTR/vuejs-tour/commit/4438349c749d283557e33bffa43f3cbca7423d03))
+* Push to 2.0.1 ([93bef24](https://github.com/AdamDrewsTR/vuejs-tour/commit/93bef24b8dfb19eeca78027d45b5a730d89e9178))
+* **readme:** Fixed shields url ([3ce98c4](https://github.com/AdamDrewsTR/vuejs-tour/commit/3ce98c433a5493892eb7723e8893004c2d590257))
+* Refactor localStorage key usage in VTour component ([fd10c04](https://github.com/AdamDrewsTR/vuejs-tour/commit/fd10c043d5344a06984b7bc6db5fd2324c2e2493))
+* **Step:** Fixed placement not working ([f16ec0f](https://github.com/AdamDrewsTR/vuejs-tour/commit/f16ec0f2ad8276f05256c62379863e976ff43996))
+* **steps:** Fixed steps breaking when targets aren't found - fixes [#9](https://github.com/AdamDrewsTR/vuejs-tour/issues/9) ([9c3d9f8](https://github.com/AdamDrewsTR/vuejs-tour/commit/9c3d9f876ece96890addc9d0c219ebc1b4cc1b8b))
+* **style:** variables not set to default ([fad38fe](https://github.com/AdamDrewsTR/vuejs-tour/commit/fad38fe840953b52dbd8038c7000781ea64191b6))
+* **version:** Updated version number ([8d3c1b9](https://github.com/AdamDrewsTR/vuejs-tour/commit/8d3c1b9e6450c41607d8b2f08c8e5ee273f2414d))
+* **vite:** Excluded jump.js from build ([7ef4cff](https://github.com/AdamDrewsTR/vuejs-tour/commit/7ef4cff868d01fb26ac70eef38a4ff2aa61fe86d))
+* **VTour:** Fixed [#78](https://github.com/AdamDrewsTR/vuejs-tour/issues/78) ([b1cdd63](https://github.com/AdamDrewsTR/vuejs-tour/commit/b1cdd63440deebc0555c39079e02e8e02e34d5cf))
+* **VTour:** Fixed backdrop not disabling after tour end ([d122180](https://github.com/AdamDrewsTR/vuejs-tour/commit/d122180adeba3f05f689685175522b927c507c51))
+* **VTour:** Fixed highlight target border remains on skip ([baba947](https://github.com/AdamDrewsTR/vuejs-tour/commit/baba947f31ce7c0256c79f74a6afde49e07ca284))
+* **VTour:** Fixed non async code ([aa583c6](https://github.com/AdamDrewsTR/vuejs-tour/commit/aa583c652599bf7794492933113a479ef5647f58))
+* **VTour:** Fixed not resetting on resetTour() [#54](https://github.com/AdamDrewsTR/vuejs-tour/issues/54) ([fbfc970](https://github.com/AdamDrewsTR/vuejs-tour/commit/fbfc970a83105863f9b614ca006ed9f200142055))
+* **VTour:** Fixed stopping tour not removing backdrop & highlight ([408f5af](https://github.com/AdamDrewsTR/vuejs-tour/commit/408f5af03f9b3c082d2c88e24a61b528460c7c3d))
+* **VTour:** Fixed stopping tour not removing backdrop & highlight ([4146a3f](https://github.com/AdamDrewsTR/vuejs-tour/commit/4146a3fb6a57d53dfc9e942cd3c06f580591f8aa))
+* **VTour:** Fixed tooltip not scrolling with target ([ffbe9d9](https://github.com/AdamDrewsTR/vuejs-tour/commit/ffbe9d9ec451f5098b358bf5f09ea5f360cfd49e))
+* **VTour:** Fixed tour showing on error (No Target) [#48](https://github.com/AdamDrewsTR/vuejs-tour/issues/48) ([6b3f664](https://github.com/AdamDrewsTR/vuejs-tour/commit/6b3f664e6f2087011e27cd15312662ee0ee8c8bf))
+* **VTour:** Fixed wrong scrolling call ([b644a86](https://github.com/AdamDrewsTR/vuejs-tour/commit/b644a8674425b2d2c0048d419dddbb9cad4dcd97))
+* **Workflow:** Fixed NPM release ([a053465](https://github.com/AdamDrewsTR/vuejs-tour/commit/a0534653b46414198a23efe6271f7e012cfe2f86))
+* **workflows:** Fixed workflow run order ([7c62137](https://github.com/AdamDrewsTR/vuejs-tour/commit/7c621373f0a9e4144847de0c3d34a80c9209e738))
+* **workflows:** workflows not running automatically ([a02959f](https://github.com/AdamDrewsTR/vuejs-tour/commit/a02959fbce96d5f03f277fc07358c5f4405b5ed4))
+* **workflows:** workflows not running automatically ([9041f03](https://github.com/AdamDrewsTR/vuejs-tour/commit/9041f0355b23faea469123cb52cd54c217bb6a66))
+* **workflows:** workflows not running automatically, temporarely set to manual ([36f826f](https://github.com/AdamDrewsTR/vuejs-tour/commit/36f826f5bfd350155c2a55341d97e0be6edee848))
+
+
+### Miscellaneous Chores
+
+* release 1.0.1 ([6bafa91](https://github.com/AdamDrewsTR/vuejs-tour/commit/6bafa912848ba5a53751c028e8752242a093cad7))
+* release 2.3.1 ([8fa9bfc](https://github.com/AdamDrewsTR/vuejs-tour/commit/8fa9bfc4c5c71cc2a1d9d0a238c0610d52c9e06f))
+* release 2.3.2 ([600d874](https://github.com/AdamDrewsTR/vuejs-tour/commit/600d8742152de2107f2cfdd6805f38933a772ddc))
+* release 2.3.8 ([88433f3](https://github.com/AdamDrewsTR/vuejs-tour/commit/88433f31b1caad5427660a22aa8895a8145406a3))
+
 ## [2.3.8](https://github.com/GlobalHive/vuejs-tour/compare/v2.3.7...v2.3.8) (2025-09-26)
 
 
